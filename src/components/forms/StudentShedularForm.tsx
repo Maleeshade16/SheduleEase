@@ -6,7 +6,6 @@ import CustomInput from "../CustomInput";
 import { studentSchema, StudentSchema } from "@/lib/validationSchemas";
 import { createStudent, updateStudent } from "@/lib/apiActions";
 import { useFormState } from "react-dom";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { showNotification } from "../Notification";
 import { useRouter } from "next/navigation";
 import ImageUpload from "../ImageUpload";
