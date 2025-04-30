@@ -131,7 +131,7 @@ const StudentForm = ({ mode, initialData, closeModal, metadata }: Props) => {
       {submissionState.error && (
         <p className="text-red-500">Something went wrong. Please try again.</p>
       )}
-
+      
       <button type="submit" className="bg-blue-600 hover:bg-blue-500 text-white p-2 rounded-md">
         {mode === "create" ? "Create" : "Update"}
       </button>
